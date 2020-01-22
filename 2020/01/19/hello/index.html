@@ -161,6 +161,34 @@
         
         
         
+        
+<div class="sharethis-inline-share-buttons"></div>
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5e242a96d6ee4a00124a9177&amp;product=social-ab' async='async'></script>
+
+        <!-- add copyright start -->
+        
+        <div>
+            <ul class="post-copyright">
+              <li class="post-copyright-author">
+              <strong>本文作者：</strong>binger</a>
+              </li>
+              <li class="post-copyright-link">
+              <strong>本文链接：</strong>
+              <a href="" title="{{ page.title }}">Hello</a>
+              </li>
+              <li class="post-copyright-link">
+              <strong>发布时间：</strong>
+              <a href="" title="{{ page.title }}">2020年1月19日 - 10时01分</a>
+              </li>
+              <li class="post-copyright-license">
+              <strong>版权声明： </strong>
+              本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0 CN</a> 许可协议。转载请注明出处！
+              </li>
+            </ul>
+        </div>
+        
+        <!-- add copyright end -->
+        
     </div>
 </div>
 
@@ -202,6 +230,27 @@
 </div>
 
 
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="title is-5 has-text-weight-normal">评论</h3>
+        
+<div id="valine-thread" class="content"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#valine-thread' ,
+        notify: false,
+        verify: false,
+        app_id: 'W9vBFHkG29eyfVvx4vybUR22-gzGzoHsz',
+        app_key: 'FHjL4e7DUGfBoMPLr1IPmrta',
+        placeholder: '快来吐槽'
+    });
+</script>
+
+    </div>
+</div>
 </div>
                 
 
@@ -605,14 +654,13 @@
                 </div>
             
             </div>
-
             
             <div align="center">
                 <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
                 <script>
                     var now = new Date(); 
                     function createtime() { 
-                        var grt= new Date("4/1/2019 12:49:00");//此处修改你的建站时间或者网站上线时间 
+                        var grt= new Date("1/19/2020 12:49:00");//此处修改你的建站时间或者网站上线时间 
                         now.setTime(now.getTime()+250); 
                         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
                         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
@@ -631,7 +679,8 @@
                     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
                 </div>
             </div>
-            <span>
+            <!-- https://www.revolvermaps.com/ -->
+            <span class="revolvermaps_span">
                 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=0xetp0d4rdh&amp;m=1c&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;cw=ffffff&amp;cb=000000" async="async"></script>
             </span>
 
@@ -768,5 +817,9 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/search.css">
 <link rel="stylesheet" href="/css/insight.css">
     
+
+    <!-- tidio -->
+    <script src="//code.tidio.co/itsp05nexya1kystpomj0qzjzignnukh.js"></script>
+
 </body>
 </html>

@@ -572,14 +572,13 @@
                 </div>
             
             </div>
-
             
             <div align="center">
                 <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
                 <script>
                     var now = new Date(); 
                     function createtime() { 
-                        var grt= new Date("4/1/2019 12:49:00");//此处修改你的建站时间或者网站上线时间 
+                        var grt= new Date("1/19/2020 12:49:00");//此处修改你的建站时间或者网站上线时间 
                         now.setTime(now.getTime()+250); 
                         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
                         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
@@ -598,7 +597,8 @@
                     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
                 </div>
             </div>
-            <span>
+            <!-- https://www.revolvermaps.com/ -->
+            <span class="revolvermaps_span">
                 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=0xetp0d4rdh&amp;m=1c&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;cw=ffffff&amp;cb=000000" async="async"></script>
             </span>
 
@@ -735,5 +735,9 @@ document.addEventListener('DOMContentLoaded', function () {
 <link rel="stylesheet" href="/css/search.css">
 <link rel="stylesheet" href="/css/insight.css">
     
+
+    <!-- tidio -->
+    <script src="//code.tidio.co/itsp05nexya1kystpomj0qzjzignnukh.js"></script>
+
 </body>
 </html>
